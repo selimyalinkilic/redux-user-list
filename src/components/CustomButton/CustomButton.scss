@@ -1,0 +1,32 @@
+.btn {
+  width: 80%;
+  height: 40px;
+  padding: 0px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #fff;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  &.btn-delete {
+    background-color: #dc3545;
+    border-color: #b02a37;
+
+    &:hover {
+      background-color: #c62f3e;
+    }
+  }
+
+  &.btn-update {
+    background-color: #ffc107;
+    border-color: #cc9a05;
+
+    &:hover {
+      background-color: #e5ad06;
+    }
+  }
+}

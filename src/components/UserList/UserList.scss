@@ -1,0 +1,51 @@
+.user-list {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+
+  .user-list-table {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    .user-list-head {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      background-color: #c0d6e4;
+      border: 1px solid #acc0cd;
+    }
+
+    .user-list-detail {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .user-col {
+    width: 24%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #acc0cd;
+    padding: 10px;
+    overflow: hidden;
+    &:first-child {
+      width: 8%;
+      border-left: 0px;
+    }
+
+    &:nth-child(5),
+    &:last-child {
+      width: 10%;
+      padding: 0px;
+      justify-content: center;
+    }
+  }
+}
